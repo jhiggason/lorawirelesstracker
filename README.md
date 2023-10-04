@@ -7,7 +7,7 @@ The Wireless Tracker is a cutting-edge development kit that combines the power o
 ## Features
 
 ### Integrated Chips
-- **ESP32-S3FN8**: Supports Wi-Fi and Bluetooth connectivity. 9 GPIO pins available for use -Pins 21(GPIO), 26(GPIO/SerialSPI), 4,5,6,7(GPIO,ADC) 15,16,17(GPIO, ADC, SerialSPI)
+- **ESP32-S3FN8**: Supports Wi-Fi and Bluetooth connectivity. 9 GPIO pins available for use -Pins 21(GPIO), 26(GPIO/SerialSPI), 4,5,6,7(GPIO,ADC/DAC) 15,16,17(GPIO, ADC/DAC, SerialSPI)
 - **SX1262**: Facilitates LoRa communication.
 - **UC6580**: Enables fast GNSS solutions for precise tracking.
 
