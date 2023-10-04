@@ -34,7 +34,7 @@ The Wireless Tracker is a cutting-edge development kit that combines the power o
 ## Getting Started
 
 [Heltec Wireless Tracker Manual](/manual/heltecwirelesstrackermanual.markdown)
-[Heltec github](https://github.com/HelTecAutomation/Heltec_ESP32)
+[Arduino library for Heltec ESP32 (or ESP32+LoRa) based boards](https://github.com/HelTecAutomation/Heltec_ESP32)
 
 [3D Printed Case](/3D%20Printed%20Case/README.md)
 
