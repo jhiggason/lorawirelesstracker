@@ -367,8 +367,3 @@ Talbe3-6-2: Sensitivity
 > Heltec Automation Technology Co., Ltd Chengdu, Sichuan, China\
 > Email:\
 > Phone: +86-028-62374838
-
-
-
-![](vertopal_8f318e01667d414e999cf88216ab1739/media/image3.png){width="7.141665573053368in"
-height="0.14722222222222223in"}
