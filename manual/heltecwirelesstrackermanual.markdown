@@ -61,23 +61,10 @@
 > Wireless Tracker are available in two product variants:\
 > Table 1.1: Product model list
 
-+-----------------------+-----------------------+-----------------------+
-| **No.**               | **Model**             | > **Description**     |
-+=======================+=======================+=======================+
-| **1**                 | Wireless Tracker-LF   | > 470\~510MHz working |
-|                       |                       | > LoRa frequency,     |
-|                       |                       | > used for China      |
-|                       |                       | > mainland (CN470)    |
-|                       |                       | > LPW band.           |
-+-----------------------+-----------------------+-----------------------+
-| **2**                 | Wireless Tracker-HF   | > For EU868, IN865,   |
-|                       |                       | > US915, AU915,       |
-|                       |                       | > AS923, KR920 and    |
-|                       |                       | > other LPW networks  |
-|                       |                       | > with operating      |
-|                       |                       | > frequencies between |
-|                       |                       | > 863\~928MHz.        |
-+-----------------------+-----------------------+-----------------------+
+| No. | Model                | Description                                            |
+| --- | --------------------| ------------------------------------------------------ |
+| 1   | Wireless Tracker-LF  | 470~510MHz working LoRa frequency, used for China mainland (CN470) LPW band. |
+| 2   | Wireless Tracker-HF  | For EU868, IN865, US915, AU915, AS923, KR920 and other LPW networks with operating frequencies between 863~928MHz. |
 
 
 
