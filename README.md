@@ -34,7 +34,8 @@ The Wireless Tracker is a cutting-edge development kit that combines the power o
 ## Getting Started
 
 [Heltec Wireless Tracker Manual](/manual/heltecwirelesstrackermanual.markdown)
-[3D Printed Case](3D Printed Case/README.md)
+
+[3D Printed Case](/3D%20Printed%20Case/README.md)
 
 ### Prerequisites
 - Arduino IDE
