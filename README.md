@@ -1,9 +1,7 @@
 # Heltec Wireless Tracker
 
 An ESP32-based device with GNSS, LoRa radio, and a small OLED.
-
 ![Image of Heltec Wireless Tracker](/tracker-1.png) 
-
 ## Table of Contents
 1. [Features](#features)
 2. [Setup Instructions](#setup-instructions)
