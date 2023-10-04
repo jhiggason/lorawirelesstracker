@@ -1,6 +1,6 @@
 # Wireless Tracker: ESP32-S3FN8 Development Kit
 
-The Wireless Tracker is a versatile development kit based on the ESP32-S3FN8. Designed for robust IoT applications, this kit seamlessly combines the capabilities of SX1262 and UC6580 to provide fast and accurate GNSS solutions. Whether you're aiming to track bicycles in a sharing service, monitor livestock movements, locate vehicles, or ensure children's safety, the Wireless Tracker is the tool you need.
+The Wireless Tracker is a versatile development kit based on the ESP32-S3FN8. Designed for robust IoT applications, this kit seamlessly combines the capabilities of SX1262 and UC6580 to provide fast and accurate GNSS solutions. Whether you're aiming to track bicycles in a sharing service, monitor livestock movements, locate vehicles, or ensure children's safety, the Wireless Tracker is a good choice.
 
 ![Image of Wireless Tracker](/heltectrackerimg.png)
 
