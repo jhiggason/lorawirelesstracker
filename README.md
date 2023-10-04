@@ -2,7 +2,7 @@
 
 The Wireless Tracker is a cutting-edge development kit that combines the power of ESP32-S3FN8, SX1262, and UC6580 chips. This trifecta of chips enables the device to provide versatile IoT applications, from GNSS solutions to LoRa communications plus an onboard OLED display. Whether you're tracking assets, monitoring livestock, locating vehicles, or safeguarding children, the Wireless Tracker is the perfect fit.
 
-![Image of Wireless Tracker](/githubstff/heltectrackerimg.png)
+![Image of Wireless Tracker](/githubstuff/heltectrackerimg.png)
 
 ## Features
 
