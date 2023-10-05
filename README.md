@@ -16,15 +16,15 @@ US Purchase: [Amazon.com](https://www.amazon.com/MakerFocus-Integrate-Bluetooth-
   - **Connectivity**: The ESP32-S3FN8 supports both Wi-Fi and Bluetooth connectivity, allowing for versatile wireless communication.
   
   - **GPIO Pins**: There are 9 GPIO pins available for various functions:
-    - `21 (GPIO)`
-    - `26 (GPIO/SerialSPI)`
-    - `4`
-    - `5`
+    - `4 (ADC/DAC)`
+    - `5 (ADC/DAC)`
     - `6 (GPIO, ADC/DAC)`
     - `7 (GPIO, ADC/DAC)`
     - `15 (GPIO, ADC/DAC, SerialSPI)`
     - `16 (GPIO, ADC/DAC, SerialSPI)`
     - `17 (GPIO, ADC/DAC, SerialSPI)`
+    - `21 (GPIO)`
+    - `26 (GPIO/SerialSPI)`
 </details>
 
 <details>
@@ -76,20 +76,10 @@ US Purchase: [Amazon.com](https://www.amazon.com/MakerFocus-Integrate-Bluetooth-
 ### Prerequisites
 
 - Arduino IDE
-- [Any other dependencies or software requirements]
 
 ### Setup Instructions
 
 1. Connect the device using the Type-C USB interface.
-2. [Other steps for initial setup]
-
-## Contributing
-
-To contribute to the development or enhancement of the Wireless Tracker software, please [link to contributing guidelines or any related info].
-
-## Support and Contact
-
-For any questions, support, or feedback, reach out to [Your Contact Information/Support Channel].
 
 ## License
 
