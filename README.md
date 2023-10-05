@@ -21,7 +21,7 @@ US Purchase: [Amazon.com](https://www.amazon.com/MakerFocus-Integrate-Bluetooth-
     - `7 (GPIO, ADC/DAC)`
     - `15 (GPIO, ADC/DAC, SerialSPI)`
     - `16 (GPIO, ADC/DAC, SerialSPI)`
-    - `17 (GPIO, ADC/DAC, SerialSPI)`
+    - `17 (GPIO, ADC/DAC, U1TXD)`
     - `21 (GPIO)`
     - `26 (GPIO/SerialSPI)`
 
