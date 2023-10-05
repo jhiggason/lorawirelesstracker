@@ -10,7 +10,6 @@ US Purchase: [Amazon.com](https://www.amazon.com/MakerFocus-Integrate-Bluetooth-
 
 ### Advanced Chips
 
-<details>
   <summary><b>ESP32-S3FN8</b></summary>
 
   - **Connectivity**: The ESP32-S3FN8 supports both Wi-Fi and Bluetooth connectivity, allowing for versatile wireless communication.
@@ -25,19 +24,14 @@ US Purchase: [Amazon.com](https://www.amazon.com/MakerFocus-Integrate-Bluetooth-
     - `17 (GPIO, ADC/DAC, SerialSPI)`
     - `21 (GPIO)`
     - `26 (GPIO/SerialSPI)`
-</details>
 
-<details>
   <summary><b>SX1262</b></summary>
 
   - **LoRa Communication**: The SX1262 module facilitates long-range (LoRa) communication. LoRa is a spread spectrum modulation technique derived from chirp spread spectrum (CSS) technology, allowing for long-range communication with low power consumption.
-</details>
 
-<details>
   <summary><b>UC6580</b></summary>
 
   - **GNSS Solutions**: The UC6580 provides fast Global Navigation Satellite System (GNSS) solutions. This allows for high-precision tracking, making it suitable for applications where precise location tracking is crucial.
-</details>
 
 ### Advanced GNSS Capabilities
 
