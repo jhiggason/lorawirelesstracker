@@ -6,10 +6,39 @@ The Wireless Tracker is a cutting-edge development kit that combines the power o
 
 ## Features
 
-### Integrated Chips
-- **ESP32-S3FN8**: Supports Wi-Fi and Bluetooth connectivity. 9 GPIO pins available for use -Pins 21(GPIO), 26(GPIO/SerialSPI), 4,5,6,7(GPIO,ADC/DAC) 15,16,17(GPIO, ADC/DAC, SerialSPI)
-- **SX1262**: Facilitates LoRa communication.
-- **UC6580**: Enables fast GNSS solutions for precise tracking.
+## Components Overview
+
+<details>
+  <summary><b>ESP32-S3FN8</b></summary>
+  
+  - **Connectivity**: The ESP32-S3FN8 supports both Wi-Fi and Bluetooth connectivity, allowing for versatile wireless communication.
+  
+  - **GPIO Pins**: There are 9 GPIO pins available for various functions:
+    - `21 (GPIO)`
+    - `26 (GPIO/SerialSPI)`
+    - `4`
+    - `5`
+    - `6 (GPIO, ADC/DAC)`
+    - `7 (GPIO, ADC/DAC)`
+    - `15 (GPIO, ADC/DAC, SerialSPI)`
+    - `16 (GPIO, ADC/DAC, SerialSPI)`
+    - `17 (GPIO, ADC/DAC, SerialSPI)`
+</details>
+
+<details>
+  <summary><b>SX1262</b></summary>
+  
+  - **LoRa Communication**: The SX1262 module facilitates long-range (LoRa) communication. LoRa is a spread spectrum modulation technique derived from chirp spread spectrum (CSS) technology, allowing for long-range communication with low power consumption.
+  
+</details>
+
+<details>
+  <summary><b>UC6580</b></summary>
+  
+  - **GNSS Solutions**: The UC6580 provides fast Global Navigation Satellite System (GNSS) solutions. This allows for high-precision tracking, making it suitable for applications where precise location tracking is crucial.
+  
+</details>
+
 
 ### Advanced GNSS Capabilities
 - Dual-frequency multi-system based on 22nm technology.
