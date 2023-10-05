@@ -7,9 +7,7 @@ US Purchase: [Amazon.com](https://www.amazon.com/MakerFocus-Integrate-Bluetooth-
 ![Image of Wireless Tracker](/githubstuff/heltectrackerimg.png)
 
 ## Features
-
-## Components Overview
-
+#Advanced Chips
   <summary><b>ESP32-S3FN8</b></summary>
   
   - **Connectivity**: The ESP32-S3FN8 supports both Wi-Fi and Bluetooth connectivity, allowing for versatile wireless communication.
