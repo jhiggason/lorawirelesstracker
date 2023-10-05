@@ -39,7 +39,7 @@ The Wireless Tracker is a cutting-edge development kit that combines the power o
 
 [Heltec Additional Information](https://docs.heltec.cn/en/node/esp32/wireless_tracker/index.html)
 
-[<img src="githubstuff/heltectracker.jpg" width="267" height="200" alt="3dprintphoto">](/3D%20Printed%20Case/README.md)
+[<img src="githubstuff/heltectracker.jpg" width="400" height="300" alt="3dprintphoto">](/3D%20Printed%20Case/README.md)
 
 
 ### Prerequisites
