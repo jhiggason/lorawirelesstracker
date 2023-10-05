@@ -114,6 +114,6 @@ Don't forget to give the project a star! Thanks again!
 
 Your Name - Jeff Higgason - jeffh@opensar.net
 
-Project Link: [https://github.com/jhiggason/YahBoomG1Tank](https://github.com/jhiggason/lorawirelesstracker)
+Project Link: [https://github.com/jhiggason/lorawirelesstracker](https://github.com/jhiggason/lorawirelesstracker)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
