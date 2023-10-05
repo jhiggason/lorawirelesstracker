@@ -62,6 +62,8 @@ US Purchase: [Amazon.com](https://www.amazon.com/MakerFocus-Integrate-Bluetooth-
 - [Heltec Wireless Tracker Manual(In Markdown)](/manual/heltecwirelesstrackermanual.markdown)
 - [Arduino library for Heltec ESP32 (or ESP32+LoRa) based boards](https://github.com/HelTecAutomation/Heltec_ESP32)
 - [Heltec Additional Information](https://docs.heltec.cn/en/node/esp32/wireless_tracker/index.html)
+- [Examples](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/tree/master/esp32/libraries/Heltec-Example/examples)
+- [JSON To Install Device in Arduino IDE 0.0.9](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases/download/0.0.9/package_heltec_esp32_index.json)
 
   ![Tracker](githubstuff/heltectracker.jpg)
   
