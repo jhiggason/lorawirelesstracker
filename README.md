@@ -84,6 +84,6 @@ To contribute to the development or enhancement of the Wireless Tracker software
 For any questions, support, or feedback, reach out to [Your Contact Information/Support Channel].
 
 ## License
-[Your licensing information]
+[View License Terms Here](/LICENSE)
 
 ---
