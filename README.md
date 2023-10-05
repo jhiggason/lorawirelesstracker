@@ -25,8 +25,8 @@ US Purchase: [Amazon.com](https://www.amazon.com/MakerFocus-Integrate-Bluetooth-
     - `21 (GPIO)`
     - `26 (GPIO, SPICS1)`
    
-<a href="https://github.com/manual/vertopal_8f318e01667d414e999cf88216ab1739/blob/main/media/image5.png">
-    <img src="https://github.com/manual/vertopal_8f318e01667d414e999cf88216ab1739/blob/main/media/image5.png?raw=true" alt="alt text" width="300" height="300">
+<a href="https://github.com/jhiggason/lorawirelesstracker/blob/main/manual/vertopal_8f318e01667d414e999cf88216ab1739/media/image5.png">
+    <img src="https://github.com/jhiggason/lorawirelesstracker/blob/main/manual/vertopal_8f318e01667d414e999cf88216ab1739/media/image5.png?raw=true" alt="alt text" width="300" height="300">
 </a>
 
   <summary><b>SX1262</b></summary>
