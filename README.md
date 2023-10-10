@@ -1,6 +1,6 @@
 # Wireless Tracker (Heltec and MakerFocus)
 
-**Please note that this github is for Version 1.1 of the Heltec/Makerfocus Wireless Tracker. All new boards sold are version 1.1.
+**Please note that this github is for Version 1.1 of the Heltec/Makerfocus Wireless Tracker. All new boards sold are version 1.1.**
 
 The Wireless Tracker is a cutting-edge development kit that combines the power of ESP32-S3FN8, SX1262, and UC6580 chips. This trifecta of hardware enables the device to provide versatile IoT applications, from GNSS solutions to LoRa communications plus an onboard OLED display. Whether you're tracking assets, monitoring livestock, locating vehicles, or safeguarding children, the Wireless Tracker is the perfect fit.
 
