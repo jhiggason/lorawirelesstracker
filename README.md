@@ -60,10 +60,10 @@ US Purchase: [Amazon.com](https://www.amazon.com/MakerFocus-Integrate-Bluetooth-
 
 ### Power Metrics
 
-  **Power Consumption**:
-    -UC6580 uses 45 mA through Vext
-    -Tracker uses 35 mA @ 80 MHz (Vext disabled)
-    -Tracker uses 18.5 uA during deepsleep, if done properly
+**Power Consumption**:
+- UC6580 uses 45 mA through Vext
+- Tracker uses 35 mA @ 80 MHz (Vext disabled)
+- Tracker uses 18.5 uA during deepsleep, if done properly
 
 ### Developer-Friendly
 
