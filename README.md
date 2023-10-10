@@ -16,7 +16,7 @@ US Purchase: [Amazon.com](https://www.amazon.com/MakerFocus-Integrate-Bluetooth-
 
   - **Connectivity**: The [ESP32-S3FN8](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf) supports both Wi-Fi and Bluetooth connectivity, allowing for versatile wireless communication.
   
-  - **GPIO Pins**: There are 9 GPIO pins available for various functions-the rest of the ESP32 pins are used for various connections to other chips:
+  - **GPIO Pins**: There are 11 GPIO pins available for various functions-the rest of the ESP32 pins are used for various connections to other chips:
     - `4 (GPIO, ADC1_CH3)`
     - `5 (GPIO, ADC1_CH4)`
     - `6 (GPIO, ADC1_CH5)`
