@@ -21,12 +21,18 @@ US Purchase: [Amazon.com](https://www.amazon.com/MakerFocus-Integrate-Bluetooth-
     - `5 (GPIO, ADC1_CH4)`
     - `6 (GPIO, ADC1_CH5)`
     - `7 (GPIO, ADC1_CH6)`
-    - `15 (GPIO, ADC2_CH4, U0RTS, XTAI_32K P)`
-    - `16 (GPIO, ADC2_CH5, U0CTS, XTAI_32K N)`
+    - `15 (GPIO, ADC2_CH4, U0RTS, XTAL_32K P)`
+    - `16 (GPIO, ADC2_CH5, U0CTS, XTAL_32K N)`
     - `17 (GPIO, ADC2_CH6, U1TXD)`
-    - `21 (GPIO)`
     - `26 (GPIO, SPICS1)`
-   
+    - `37 (GPIO, SPIDQS, FSPIQ, SUBSPIQ)`
+    - `45 (GPIO)`
+    - `46 (GPIO)`
+    - `47 (GPIO) and 48 (GPIO) do not seem to influence the GPS in any way, even though they are connected to Boot_Mode (could put GPS into firmware upgrade mode) and D_SEL (which could remap internal GPS pinout). They appear to be free of use to the user.`
+
+
+ **Note**  The pinouts below are for version 1.0, Heltec has not provided a version 1.1 for us to reference.  
+
 <a href="https://github.com/jhiggason/lorawirelesstracker/blob/main/manual/vertopal_8f318e01667d414e999cf88216ab1739/media/image5.png">
     <img src="https://github.com/jhiggason/lorawirelesstracker/blob/main/manual/vertopal_8f318e01667d414e999cf88216ab1739/media/image5.png?raw=true" alt="alt text" width="500" height="339">
 </a>
@@ -51,6 +57,13 @@ US Purchase: [Amazon.com](https://www.amazon.com/MakerFocus-Integrate-Bluetooth-
 - **Battery Management**: Onboard SH1.25-2 battery interface with integrated lithium battery management system, including charge/discharge management, overcharge protection, battery power detection, and automatic switching between USB and battery power.
 - **Connectivity**: Dedicated 2.4GHz metal spring antenna for Wi-Fi and Bluetooth. Reserved IPEX (U.FL) interface for LoRa and GNSS.
 - **Display**: 0.96-inch 160x80 dot matrix OLED for showcasing debugging information, battery status, and more.
+
+### Power Metrics
+
+  **Power Consumption**:
+    -UC6580 uses 45 mA through Vext
+    -Tracker uses 35 mA @ 80 MHz (Vext disabled)
+    -Tracker uses 18.5 uA during deepsleep, if done properly
 
 ### Developer-Friendly
 
