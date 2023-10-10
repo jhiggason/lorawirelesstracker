@@ -14,7 +14,7 @@ US Purchase: [Amazon.com](https://www.amazon.com/MakerFocus-Integrate-Bluetooth-
 
   <summary><b>ESP32-S3FN8</b></summary>
 
-  - **Connectivity**: The ESP32-S3FN8 supports both Wi-Fi and Bluetooth connectivity, allowing for versatile wireless communication.
+  - **Connectivity**: The [ESP32-S3FN8](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf) supports both Wi-Fi and Bluetooth connectivity, allowing for versatile wireless communication.
   
   - **GPIO Pins**: There are 9 GPIO pins available for various functions-the rest of the ESP32 pins are used for various connections to other chips:
     - `4 (GPIO, ADC1_CH3)`
@@ -43,7 +43,7 @@ US Purchase: [Amazon.com](https://www.amazon.com/MakerFocus-Integrate-Bluetooth-
 
   <summary><b>UC6580</b></summary>
 
-  - **GNSS Solutions**: The UC6580 provides fast Global Navigation Satellite System (GNSS) solutions. This allows for high-precision tracking, making it suitable for applications where precise location tracking is crucial.
+  - **GNSS Solutions**: The [UC6580 module](https://en.unicorecomm.com/products/detail/34) provides fast Global Navigation Satellite System (GNSS) solutions. This allows for high-precision tracking, making it suitable for applications where precise location tracking is crucial.
 
 ### Advanced GNSS Capabilities
 
