@@ -39,7 +39,7 @@ US Purchase: [Amazon.com](https://www.amazon.com/MakerFocus-Integrate-Bluetooth-
 
   <summary><b>SX1262</b></summary>
 
-  - **LoRa Communication**: The SX1262 module facilitates long-range (LoRa) communication. LoRa is a spread spectrum modulation technique derived from chirp spread spectrum (CSS) technology, allowing for long-range communication with low power consumption.
+  - **LoRa Communication**: The [SX1262 module](https://www.semtech.com/products/wireless-rf/lora-connect/sx1262#_application_notes) facilitates long-range (LoRa) communication. LoRa is a spread spectrum modulation technique derived from chirp spread spectrum (CSS) technology, allowing for long-range communication with low power consumption.
 
   <summary><b>UC6580</b></summary>
 
