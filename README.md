@@ -31,7 +31,7 @@ US Purchase: [Amazon.com](https://www.amazon.com/MakerFocus-Integrate-Bluetooth-
     - `47 (GPIO) and 48 (GPIO) do not seem to influence the GPS in any way, even though they are connected to Boot_Mode (could put GPS into firmware upgrade mode) and D_SEL (which could remap internal GPS pinout). They appear to be free of use to the user.`
 
 
- **Note**  The pinouts below are for version 1.0, Heltec has not provided a version 1.1 for us to reference.  
+ **--Note--**  The pinouts below are for version 1.0, Heltec has not provided a version 1.1 for us to reference.  
 
 <a href="https://github.com/jhiggason/lorawirelesstracker/blob/main/manual/vertopal_8f318e01667d414e999cf88216ab1739/media/image5.png">
     <img src="https://github.com/jhiggason/lorawirelesstracker/blob/main/manual/vertopal_8f318e01667d414e999cf88216ab1739/media/image5.png?raw=true" alt="alt text" width="500" height="339">
