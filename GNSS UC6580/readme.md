@@ -11,7 +11,6 @@ The ESP32-S3's `GNSS_TX` (pin 38) connects to the `RX` pin (pin 19) on the UC658
 
 For a library recommendation and usage with ESP32:
 
-```markdown
 ## Recommended GNSS Library
 
 [TinyGPS++](https://github.com/mikalhart/TinyGPSPlus)
@@ -25,6 +24,7 @@ For a library recommendation and usage with ESP32:
   4. Retrieve parsed data with the TinyGPS++ API.
 
 ### Sample Setup Code:
+```markdown
 
 ```cpp
 #include <TinyGPS++.h>
