@@ -24,7 +24,6 @@ For a library recommendation and usage with ESP32:
   4. Retrieve parsed data with the TinyGPS++ API.
 
 ### Sample Setup Code:
-```markdown
 
 ```cpp
 #include <TinyGPS++.h>
