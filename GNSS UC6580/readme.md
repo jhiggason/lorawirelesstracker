@@ -44,6 +44,6 @@ void loop(){
   }
 }
 ```
-```
+
 
 This setup provides a simple example to read and display the GPS coordinates. You can expand upon this based on your specific project requirements.
