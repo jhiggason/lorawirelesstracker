@@ -49,7 +49,7 @@ void setup() {
   Serial.begin(115200);
 
   // Start GNSS module communication
-  GNSSSerial.begin(115200, SERIAL_8N1, GNSS_RXPin, GNSS_TXPin);
+  GNSSSerial.begin(115200, SERIAL_8N1, GNSS_TXPin, GNSS_RXPin);
 
   // Configure GNSS reset pin
   pinMode(GNSS_RSTPin, OUTPUT);
