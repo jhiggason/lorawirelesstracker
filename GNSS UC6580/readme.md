@@ -32,7 +32,7 @@ TinyGPSPlus gps;
 HardwareSerial GNSSSerial(2);
 
 // Pin definitions for GNSS module communication
-const int GNSS_RXPin = 38;
+const int GNSS_RXPin = 34;
 const int GNSS_TXPin = 33;
 const int GNSS_RSTPin = 35; //There is a function built for this in the example below- currently it isn't used
 const int GNSS_PPS_Pin = 36;
@@ -49,7 +49,7 @@ void setup() {
   Serial.begin(115200);
 
   // Start GNSS module communication
-  GNSSSerial.begin(9600, SERIAL_8N1, GNSS_RXPin, GNSS_TXPin);
+  GNSSSerial.begin(115200, SERIAL_8N1, GNSS_RXPin, GNSS_TXPin);
 
   // Configure GNSS reset pin
   pinMode(GNSS_RSTPin, OUTPUT);
