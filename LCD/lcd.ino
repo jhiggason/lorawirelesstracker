@@ -23,8 +23,8 @@ const uint16_t COLOR_DELAY = 500;
 HT_st7735 st7735;
 
 void setup() {
-    pinMode(Vext, OUTPUT);
-    digitalWrite(Vext, HIGH); //LCD needs power before init.
+  pinMode(Vext, OUTPUT);
+  digitalWrite(Vext, HIGH); //LCD needs power before init.
     Serial.begin(115200);
     st7735.st7735_init();
     Serial.printf("Ready!\r\n");
