@@ -8,6 +8,7 @@ const uint16_t FONT_7x10_COLOR = ST7735_RED;
 const uint16_t FONT_11x18_COLOR = ST7735_GREEN;
 const uint16_t FONT_16x26_COLOR = ST7735_BLUE;
 const uint16_t BLACK_COLOR = ST7735_BLACK;
+const uint16_t BLUE_COLOR = ST7735_BLUE;
 const uint16_t RED_COLOR = ST7735_RED;
 const uint16_t GREEN_COLOR = ST7735_GREEN;
 const uint16_t CYAN_COLOR = ST7735_CYAN;
@@ -25,9 +26,9 @@ HT_st7735 st7735;
 void setup() {
   pinMode(Vext, OUTPUT);
   digitalWrite(Vext, HIGH); //LCD needs power before init.
-    Serial.begin(115200);
-    st7735.st7735_init();
-    Serial.printf("Ready!\r\n");
+  Serial.begin(115200);
+  st7735.st7735_init();
+  Serial.printf("Ready!\r\n");
 }
 
 void loop() {
