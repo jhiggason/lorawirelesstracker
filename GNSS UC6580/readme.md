@@ -7,7 +7,7 @@
 | `35`           | `GNSS_RST`     | `17`       | `RESETN`     |
 | `36`           | `PPS`          | `35`       | `PPS`        |
 
-The ESP32-S3's `GNSS_TX` (pin 38) connects to the `RX` pin (pin 19) on the UC6580, and `GNSS_RX` (pin 39) connects to the `TX` pin (pin 18) on the UC6580. This makes sense as TX (transmit) on one device should connect to RX (receive) on the other, and vice versa. Additionally, the `GNSS_RST` (pin 35) of the ESP32-S3 connects to the `RESETN` pin (pin 17) on the UC6580. Lastly, the `PPS` (pin 36) of the ESP32-S3 is connected to the `PPS` pin (pin 35) on the UC6580.
+The ESP32-S3's `GNSS_TX` (pin 33) connects to the `RX` pin (pin 19) on the UC6580, and `GNSS_RX` (pin 34) connects to the `TX` pin (pin 18) on the UC6580. This makes sense as TX (transmit) on one device should connect to RX (receive) on the other, and vice versa. Additionally, the `GNSS_RST` (pin 35) of the ESP32-S3 connects to the `RESETN` pin (pin 17) on the UC6580. Lastly, the `PPS` (pin 36) of the ESP32-S3 is connected to the `PPS` pin (pin 35) on the UC6580.
 
 ## Recommended GNSS Library
 
