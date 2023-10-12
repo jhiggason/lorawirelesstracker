@@ -2,8 +2,8 @@
 
 | Wireless Tracker Pin   | ESP32-S3 Label | UC6580 Pin | UC6580 Label |
 |----------------|----------------|------------|--------------|
-| `38`           | `GNSS_TX`      | `19`       | `RX`         |
-| `39`           | `GNSS_RX`      | `18`       | `TX`         |
+| `33`           | `GNSS_TX`      | `19`       | `RX`         |
+| `34`           | `GNSS_RX`      | `18`       | `TX`         |
 | `35`           | `GNSS_RST`     | `17`       | `RESETN`     |
 | `36`           | `PPS`          | `35`       | `PPS`        |
 
