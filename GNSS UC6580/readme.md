@@ -46,10 +46,12 @@ unsigned long lastGNSSDataMillis = 0;
 
 void setup() {
   // Initialize serial communication for debugging
-  Serial.begin(115200);
+  USBSerial.begin(115200); 
+  while(!USBSerial);
 
   // Start GNSS module communication
   GNSSSerial.begin(115200, SERIAL_8N1, GNSS_TXPin, GNSS_RXPin);
+  while(!GNSSSerial);
 
   // Configure GNSS reset pin
   pinMode(GNSS_RSTPin, OUTPUT);
@@ -77,7 +79,7 @@ void loop() {
   if (!initialSyncDone && gps.date.isValid() && gps.time.isValid()) {
     setSystemTime();
     initialSyncDone = true;
-    Serial.println("Initial time synchronization done using NMEA data.");
+    USBSerial.println("Initial time synchronization done using NMEA data.");
   }
 
   // Disable interrupts to safely check and reset the PPS flag
@@ -91,7 +93,7 @@ void loop() {
 
   // Check if GNSS data has been absent for more than a minute
   if (millis() - lastGNSSDataMillis > 60000) {
-    Serial.println("Warning: Haven't received GNSS data for more than 1 minute!");
+    USBSerial.println("Warning: Haven't received GNSS data for more than 1 minute!");
     // Additional actions can be added here, like alerts or module resets.
   }
 }
@@ -122,16 +124,16 @@ void fineTuneSystemTime() {
   gettimeofday(&tv, NULL);
   tv.tv_usec = 0;  // Reset microseconds to zero
   settimeofday(&tv, NULL); // Update system time
-  Serial.println("System time fine-tuned using PPS signal.");
+  USBSerial.println("System time fine-tuned using PPS signal.");
 }
 
 // Debugging function to display GNSS data
 void displayGNSSData() {
-  Serial.print("Latitude: "); Serial.println(gps.location.lat(), 6);
-  Serial.print("Longitude: "); Serial.println(gps.location.lng(), 6);
-  Serial.print("Altitude: "); Serial.println(gps.altitude.meters());
-  Serial.print("Speed: "); Serial.println(gps.speed.kmph());
-  Serial.println("-----------------------------");
+  USBSerial.print("Latitude: "); USBSerial.println(gps.location.lat(), 6);
+  USBSerial.print("Longitude: "); USBSerial.println(gps.location.lng(), 6);
+  USBSerial.print("Altitude: "); USBSerial.println(gps.altitude.meters());
+  USBSerial.print("Speed: "); USBSerial.println(gps.speed.kmph());
+  USBSerial.println("-----------------------------");
 }
 ```
 
